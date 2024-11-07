@@ -265,7 +265,7 @@ sudo apt update
 
 #instalação dos software base do Linux Mint 20.x, 21.x e 22.x
 #opção da contra barra (\): criar uma quebra de linha no terminal
-sudo apt install software-properties-common build-essential lsb-core dkms lsb-release \
+sudo apt install software-properties-common build-essential lsb-base dkms lsb-release \
 apt-transport-https module-assistant
 
 #instalação dos software de hardware e monitoramento do Linux Mint 20.x, 21.x e 22.x
@@ -276,7 +276,7 @@ ipmiutil smartmontools btop
 #instalação dos software e aplicativos básicos do Linux Mint 20.x, 21.x e 22.x
 #opção da contra barra (\): criar uma quebra de linha no terminal
 sudo apt install ttf-mscorefonts-installer cheese guvcview v4l-utils cairo-dock vim git \
-p7zip-full p7zip-rar
+p7zip-full p7zip-rar pulseaudio
 
 #reinicializar o Sistema
 sudo reboot
